@@ -31,3 +31,15 @@
     opacity: 0.9;
     transition: all 0.2s linear;
 }
+.link__none{
+    display: none;
+}
+.favorites__save{
+    display:block;
+}
+.favorites__save.link__none{
+    display:none;
+}
+.link__none.link__block{
+    display:block;
+}
